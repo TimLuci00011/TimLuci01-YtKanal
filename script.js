@@ -4,6 +4,15 @@ const CHANNEL_ID = "UC0REH3HAaH3QGf8EcttLBiQ";
 const VIDEOS_DATA = [
   // Videos / Trailer / Tutorial
   {
+    id: "Tb9Lq9RMIjQ",
+    title: "Meine eigende webseite",
+    category: "videos",
+    badge: "🔥 NEU • Webseite",
+    badgeClass: "badge-video",
+    views: "Neu",
+    date: "Gerade eben"
+  },
+  {
     id: "HjUHmyRoW4U",
     title: "Teaser für One Piece Mini Season? + Vieles Mehr! 🔥| TimLuci01",
     category: "videos",
