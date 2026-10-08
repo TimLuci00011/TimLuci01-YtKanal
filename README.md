@@ -24,16 +24,16 @@ Dieses Projekt ist bereits **komplett als Git-Repository eingerichtet** (inkl. `
 Kopiere die Befehle von der GitHub-Seite oder führe hier im Ordner (`c:\Users\timlu\Desktop\TimLuci01`) im Terminal aus (ersetze `DEIN_GITHUB_NAME` durch deinen GitHub-Benutzernamen):
 
 ```powershell
-git remote add origin https://github.com/DEIN_GITHUB_NAME/TimLuci01.git
+git remote add origin https://github.com/timluci00011/TimLuci01-YtKanal.git
 git branch -M main
-git push -u origin main
+git push -u origin main --force
 ```
 
 ### Schritt 3: GitHub Pages aktivieren
-1. Öffne dein Repository auf GitHub und klicke oben auf **Settings** ⚙️.
+1. Öffne dein Repository auf GitHub (`https://github.com/timluci00011/TimLuci01-YtKanal`) und klicke oben auf **Settings** ⚙️.
 2. Klicke links im Menü auf **Pages**.
 3. Wähle unter **Build and deployment** -> **Source** entweder:
    - **Deploy from a branch** -> Branch: `main` / `/(root)` -> **Save**
    - *oder* **GitHub Actions** (der Workflow `.github/workflows/pages.yml` ist bereits fertig eingerichtet!).
-4. Nach ca. 30–60 Sekunden ist deine Webseite live unter:
-   `https://DEIN_GITHUB_NAME.github.io/TimLuci01/` 🎉
+4. Deine Webseite ist live unter:
+   **https://timluci00011.github.io/TimLuci01-YtKanal/** 🎉
